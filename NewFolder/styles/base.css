@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     font-family: Jost;
 }
-.container{
+
+.container {
     padding: 0px 20px;
 }
-body{
+
+body {
     max-width: 100%;
     gap: 0px;
     position: relative;

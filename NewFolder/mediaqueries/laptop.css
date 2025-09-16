@@ -1,18 +1,21 @@
-@media (min-width: 1024px)and (max-width: 1140px){
-    .hero-part2-text{
+@media (min-width: 1024px)and (max-width: 1140px) {
+    .hero-part2-text {
         max-width: 38%;
     }
-    .hero-logo{
- 
+
+    .hero-logo {
+
         margin: 0px;
     }
-    .hero-description{
+
+    .hero-description {
         max-width: 390px;
         margin: 0px 0px;
         padding: 0px;
         margin-bottom: 20px;
     }
-    .hero-button{
+
+    .hero-button {
         margin: 0px;
         padding: 0px;
     }

@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
     addIcons.forEach(icon => {
         icon.addEventListener("click", async (e) => {
             const productBox = e.target.closest(".imagebox");
-            const productId = parseInt(productBox.getAttribute("data-id"));  
+            const productId = parseInt(productBox.getAttribute("data-id"));
 
             try {
-                const response = await fetch("/NewFolder/json/products.json");  
+                const response = await fetch("/NewFolder/json/products.json");
                 const data = await response.json();
-                const products = data.products; 
+                const products = data.products;
                 const product = products.find(p => p.id === productId);
 
                 if (product) {

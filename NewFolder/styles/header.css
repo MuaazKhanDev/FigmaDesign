@@ -1,4 +1,4 @@
-.header-wrapper{
+.header-wrapper {
     width: 100%;
 }
 
@@ -47,6 +47,7 @@
     transition: background-color 0.3s ease;
     gap: 10px;
 }
+
 .header-button:hover {
     background-color: white;
 }

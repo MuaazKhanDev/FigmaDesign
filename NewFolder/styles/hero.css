@@ -68,7 +68,7 @@
     margin-bottom: 30px;
 }
 
-.hero-button, 
+.hero-button,
 .hero-button-mobile {
     display: flex;
     align-items: center;
@@ -92,6 +92,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .hero-button:hover,
 .hero-button-mobile:hover {
     background-color: white;

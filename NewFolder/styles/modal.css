@@ -11,15 +11,18 @@
     transform: translate(-50%, -50%);
     z-index: 1000;
 }
+
 .modal-overlay {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.4);
-      backdrop-filter: blur(5px);
-      z-index: 999;
-    }
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
 
 .modal-section-crossicon {
     display: flex;
@@ -155,7 +158,8 @@
     display: flex;
     align-items: center;
 }
-.modal-section-sizechoice-icon{
+
+.modal-section-sizechoice-icon {
     border: 0.5px solid black;
     border-left: none;
     width: 40px;
@@ -164,7 +168,8 @@
     align-items: center;
     justify-content: center;
 }
-.modal-section-sizechoicebar{
+
+.modal-section-sizechoicebar {
     width: 100%;
     height: 42px;
     top: 35px;
@@ -178,14 +183,14 @@
     vertical-align: middle;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     appearance: none;
     border: 0.5px solid rgb(0, 0, 0);
     padding-left: 10px;
     border-radius: 0%;
 }
 
-.modal-section-button{
+.modal-section-button {
     width: 271px;
     height: 45px;
     top: 377px;
@@ -199,13 +204,13 @@
     border: none;
     margin-top: 30px;
 }
-.addtocart-button{
+
+.addtocart-button {
     background-color: black;
     border: 1px solid black;
 }
+
 .addtocart-button:hover {
     background-color: white;
     color: black;
 }
-
-
