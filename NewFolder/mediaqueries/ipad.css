@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 1022px){
+    .hero-logo{
+        max-width: 300px;
+        height: 40px;
+        font-size: 40px;
+        margin: 0px;
+    }
+    .hero-description{
+        max-width: 280px;
+        height: 70px;
+        font-size: 16px;
+        margin: 10px 0px;
+        margin-top: 20px;
+    }
+    .hero-button{
+        display: none;
+    }
+    .hero-part2-text{
+        padding-left: 35px;
+    }
+}

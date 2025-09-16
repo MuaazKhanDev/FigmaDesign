@@ -1,0 +1,105 @@
+.hero-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 0%;
+}
+
+.hero-part1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.hero-part2 {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+}
+
+.hero-part2-text {
+    width: 38%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.hero-part2-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-part2-image img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hero-logo {
+    width: 459px;
+    height: 70px;
+    top: 489px;
+    left: 67px;
+    font-family: Jost;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.hero-description {
+    width: 403px;
+    height: 84px;
+    top: 609px;
+    left: 67px;
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hero-button, 
+.hero-button-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: 14.26px;
+    left: 55.07px;
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 20.48px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero-button:hover,
+.hero-button-mobile:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero-logo-mobile,
+.hero-description-mobile,
+.hero-button-mobile {
+    display: none;
+}

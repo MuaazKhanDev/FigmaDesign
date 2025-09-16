@@ -1,0 +1,211 @@
+.modal-wrapper {
+    display: none;
+    background-color: #f5f5f5;
+    width: 311px;
+    height: 447px;
+    margin-left: 35%;
+    margin-bottom: 10%;
+    position: fixed;
+    top: 50%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(5px);
+      z-index: 999;
+    }
+
+.modal-section-crossicon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.modal-section-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-section-part1-image {
+    width: 350px;
+    height: 140px;
+    top: 36px;
+    left: 17px;
+
+}
+
+.modal-section-part1-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-section-part1-text {
+    margin-left: 6px;
+}
+
+.modal-section-part1-logo {
+    width: 136px;
+    height: 19px;
+    top: 49px;
+    left: 145px;
+    font-family: Jost;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.modal-section-part1-price {
+    width: 64;
+    height: 19;
+    top: 88px;
+    left: 145px;
+    font-family: Lustria;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 7px;
+}
+
+.modal-section-part1-description {
+    width: 146px;
+    height: 60px;
+    top: 119px;
+    left: 145px;
+    font-family: Jost;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -1%;
+    margin-top: 7px;
+}
+
+.modal-section-color {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33;
+    height: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+.modal-section-color-select {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.modal-section-color1-name {
+    width: 122px;
+    height: 40px;
+    top: 35px;
+    left: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.modal-section-color2-name {
+    width: 122px;
+    height: 40px;
+    top: 35px;
+    left: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.modal-section-size {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.modal-section-sizechoice {
+    width: 271px;
+    height: 40.1px;
+    top: 24.35px;
+    border-width: 0.5px;
+    display: flex;
+    align-items: center;
+}
+.modal-section-sizechoice-icon{
+    border: 0.5px solid black;
+    border-left: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-section-sizechoicebar{
+    width: 100%;
+    height: 42px;
+    top: 35px;
+    left: 13px;
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    appearance: none;
+    border: 0.5px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 0%;
+}
+
+.modal-section-button{
+    width: 271px;
+    height: 45px;
+    top: 377px;
+    left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+}
+.addtocart-button{
+    background-color: black;
+    border: 1px solid black;
+}
+.addtocart-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
