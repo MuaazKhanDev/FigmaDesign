@@ -4,15 +4,20 @@
     }
 
     .hero-logo {
-
         margin: 0px;
+        font-size: 50px;
+    }
+    .hero-part2-text {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 10px;
     }
 
     .hero-description {
-        max-width: 390px;
+        max-width: 370px;
         margin: 0px 0px;
         padding: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .hero-button {
