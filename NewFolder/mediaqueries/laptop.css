@@ -1,6 +1,7 @@
-@media (min-width: 1024px)and (max-width: 1140px) {
+@media (min-width: 1023px)and (max-width: 1140px) {
     .hero-part2-text {
         max-width: 38%;
+        padding-left: 50px;
     }
 
     .hero-logo {
@@ -25,4 +26,7 @@
         padding: 0px;
     }
 
+    .header-section{
+        padding: 0px 60px;
+    }
 }

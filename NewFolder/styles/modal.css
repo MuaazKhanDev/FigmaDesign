@@ -1,7 +1,7 @@
 .modal-wrapper {
     display: none;
     background-color: #f5f5f5;
-    width: 311px;
+    width: 321px;
     height: 447px;
     margin-left: 35%;
     margin-bottom: 10%;
@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: end;
     padding-top: 10px;
+    padding-right: 10px;
     cursor: pointer;
 }
 
@@ -39,11 +40,11 @@
 }
 
 .modal-section-part1-image {
-    width: 350px;
-    height: 140px;
+    max-width: 350px;
+    height: 150px;
     top: 36px;
     left: 17px;
-
+    margin-left: 10px;
 }
 
 .modal-section-part1-image img {
@@ -113,12 +114,15 @@
     font-size: 14px;
     line-height: 130%;
     letter-spacing: 0%;
+    margin-left: 10px;
 }
 
 .modal-section-color-select {
     border: 1px solid black;
     display: flex;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .modal-section-color1-name {
@@ -148,15 +152,17 @@
 .modal-section-size {
     margin-top: 15px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .modal-section-sizechoice {
-    width: 271px;
+    width: 301px;
     height: 40.1px;
     top: 24.35px;
     border-width: 0.5px;
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .modal-section-sizechoice-icon {
@@ -191,7 +197,7 @@
 }
 
 .modal-section-button {
-    width: 271px;
+    width: 281px;
     height: 45px;
     top: 377px;
     left: 20px;
@@ -202,7 +208,8 @@
     gap: 10px;
     cursor: pointer;
     border: none;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .addtocart-button {
