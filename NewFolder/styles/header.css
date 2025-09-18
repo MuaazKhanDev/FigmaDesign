@@ -2,7 +2,9 @@
     width: 100%;
 }
 
-.header-hamburger {
+.header-hamburger,
+.dropdown-menu,
+.header-logo-mobile {
     display: none;
 }
 
@@ -33,7 +35,7 @@
     text-align: center;
     vertical-align: middle;
 }
-
+.dropdown-button,
 .header-button {
     display: flex;
     align-items: center;
@@ -48,6 +50,7 @@
     gap: 10px;
 }
 
-.header-button:hover {
+.header-button:hover,
+.dropdown-button:hover {
     background-color: white;
 }

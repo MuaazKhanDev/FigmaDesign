@@ -9,7 +9,8 @@
     .hero-description,
     .hero-button,
     .banner-section,
-    .hero-part2-text {
+    .hero-part2-text,
+    .header-logo {
         display: none;
     }
 
@@ -17,7 +18,12 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 30%;
+        gap: 33%;
+    }
+    .header-logo-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-logo-mobile {
@@ -130,5 +136,14 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+    .dropdown-menu{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        padding-bottom: 20px;
+        border: 1px solid black;
     }
 }
